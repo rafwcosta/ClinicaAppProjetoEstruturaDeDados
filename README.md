@@ -2,52 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-   <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #0056b3;
-            border-bottom: 2px solid #eef;
-            padding-bottom: 10px;
-            margin-top: 40px;
-        }
-        h1 { font-size: 2.5em; text-align: center; }
-        h2 { font-size: 2em; }
-        h3 { font-size: 1.5em; border-bottom: 1px solid #f0f0f0; }
-        h4 { font-size: 1.2em; color: #333; }
-        .class-doc { margin-bottom: 50px; }
-        .method-block {
-            background-color: #f9f9f9;
-            border: 1px solid #e7e7e7;
-            border-left: 5px solid #0056b3;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-        code {
-            background-color: #eef2fa;
-            color: #3d3d3d;
-            padding: 3px 6px;
-            border-radius: 4px;
-            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-            font-size: 0.95em;
-        }
-        .param-return strong { color: #d9534f; }
-    </style>
+
 <body>
     <div class="container">
         <h1>Documentação Completa do Projeto: Clínica App</h1>
