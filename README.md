@@ -52,10 +52,8 @@
     </style>
 </head>
 <body>
-
     <div class="container">
         <h1>Documentação Completa do Projeto: Clínica App</h1>
-
         <section class="class-doc" id="MainApp">
             <h2>Classe: <code>com.example.clinica_app.MainApp</code></h2>
             <p>Classe principal que inicia a aplicação JavaFX. É o ponto de entrada do programa.</p>
@@ -74,7 +72,6 @@
                 <div class="param-return"><p><strong>@param</strong> <code>args</code>: Argumentos de linha de comando.</p></div>
             </div>
         </section>
-
         <section class="class-doc" id="AppContext">
             <h2>Classe: <code>com.example.clinica_app.AppContext</code></h2>
             <p>Fornece um contexto global para a aplicação, armazenando dados compartilhados.</p>
@@ -88,7 +85,6 @@
                 <p>Armazena o ID do usuário que está logado no sistema.</p>
             </div>
         </section>
-        
         <section class="class-doc" id="SistemaAgendamento">
             <h2>Classe: <code>com.example.clinica_app.SistemaAgendamento</code></h2>
             <p>Classe central que gerencia toda a lógica de negócio do sistema de agendamento.</p>
@@ -106,7 +102,6 @@
             <div class="method-block"><h4><code>public List&lt;Consulta&gt; getConsultas(String idMedico)</code></h4><p>Retorna todas as consultas e disponibilidades da agenda de um médico.</p><div class="param-return"><p><strong>@return</strong> Uma lista de objetos <code>Consulta</code>.</p></div></div>
             <div class="method-block"><h4><code>public List&lt;Consulta&gt; getTodasConsultasDisponiveis()</code></h4><p>Retorna todas as consultas com status "DISPONIVEL" de todos os médicos.</p><div class="param-return"><p><strong>@return</strong> Uma lista de objetos <code>Consulta</code>.</p></div></div>
         </section>
-
         <section class="class-doc" id="Medico">
             <h2>Classe: <code>com.example.clinica_app.Medico</code></h2>
             <p>Representa um médico no sistema.</p>
@@ -117,7 +112,6 @@
             <div class="method-block"><h4><code>public String getNome()</code></h4><p><strong>@return</strong> O nome do médico.</p></div>
             <div class="method-block"><h4><code>public String getEspecialidade()</code></h4><p><strong>@return</strong> A especialidade do médico.</p></div>
         </section>
-
         <section class="class-doc" id="Paciente">
             <h2>Classe: <code>com.example.clinica_app.Paciente</code></h2>
             <p>Representa um paciente no sistema.</p>
@@ -131,7 +125,6 @@
             <div class="method-block"><h4><code>public void adicionarConsultaAoHistorico(Consulta consulta)</code></h4><p>Adiciona uma consulta ao histórico do paciente.</p></div>
             <div class="method-block"><h4><code>public void removerConsultaDoHistorico(String idConsulta)</code></h4><p>Remove uma consulta do histórico do paciente pelo ID.</p></div>
         </section>
-
         <section class="class-doc" id="Consulta">
             <h2>Classe: <code>com.example.clinica_app.Consulta</code></h2>
             <p>Representa uma consulta médica ou um horário de disponibilidade na agenda.</p>
@@ -145,7 +138,6 @@
             <div class="method-block"><h4><code>public void cancelar()</code></h4><p>Altera o status para "CANCELADA".</p></div>
             <div class="method-block"><h4><code>public String toString()</code></h4><p><strong>@return</strong> Uma representação em texto do horário da consulta.</p></div>
         </section>
-
         <section class="class-doc" id="ClinicaController">
             <h2>Classe: <code>com.example.clinica_app.ClinicaController</code></h2>
             <p>Controlador principal da interface gráfica (GUI). Gerencia todas as interações do usuário.</p>
@@ -165,7 +157,7 @@
             <div class="method-block"><h4><code>public void onVoltarTelaPaciente(ActionEvent event)</code></h4><p>Retorna para o menu principal do paciente.</p></div>
         </section>
 
-    </div>
+</div>
 
 </body>
 </html>
