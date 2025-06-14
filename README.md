@@ -5,6 +5,7 @@
 <body>
     <div class="container">
         <h1>Documentação Completa do Projeto: Clínica App</h1>
+        <h2>Acesse: https://rafwcosta.github.io/ClinicaAppProjetoEstruturaDeDados/</h2>
         <section class="class-doc" id="MainApp">
             <h2>Classe: <code>com.example.clinica_app.MainApp</code></h2>
             <p>Classe principal que inicia a aplicação JavaFX. É o ponto de entrada do programa.</p>
